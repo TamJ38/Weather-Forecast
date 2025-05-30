@@ -45,7 +45,7 @@ cd Weather-Forecast
   ```bash
   spring.datasource.username=your_mysql_user
   spring.datasource.password=your_mysql_password
-  weather.api.key=41579da2c77f961738ade68b9bcecec5
+  weather.api.key=your_api_key
   ```
 
 ---
