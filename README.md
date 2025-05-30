@@ -58,7 +58,15 @@ cd Weather-Forecast
 
 ---
 
-### 5. Api Endpoints
+### 5. Fetching Weather Data
+
+- After you run the application, you need to manually fetch weather forecast data using this endpoint:
+
+```bash
+curl -X POST http://localhost:8080/api/forecast/fetch
+```
+
+### 6. Api Endpoints
 
 - POST: /api/forecast/fetch - fetch and store forecast from API
 - GET: /api/forecast - get all forecasts
@@ -69,7 +77,7 @@ cd Weather-Forecast
 
 ---
 
-### 6. Frontend
+### 7. Frontend
 
 ```bash
 http://localhost:8080/index.html
