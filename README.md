@@ -36,6 +36,8 @@ cd Weather-Forecast
 
 - Create a MySQL database (weather_db)
 
+---
+
 ### 3. Configure Properties
 
 - Copy the data from the example configuration file (application.properties.example) to your application.properties file
