@@ -40,7 +40,7 @@ cd Weather-Forecast
 
 ### 3. Configure Properties
 
-- Copy the data from the example configuration file (application.properties.example) to your application.properties file
+- Copy the data from the example configuration file (application.properties.example) to application.properties file or just rename the file to "application.properties"
 - Update the following
   ```bash
   spring.datasource.username=your_mysql_user
@@ -74,3 +74,6 @@ cd Weather-Forecast
 ```bash
 http://localhost:8080/index.html
 ```
+
+
+![img.png](img.png)
