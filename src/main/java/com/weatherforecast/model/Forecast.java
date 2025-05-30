@@ -6,6 +6,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDate;
 
@@ -36,5 +38,9 @@ public class Forecast {
     }
 
     public Forecast() {
+    }
+
+    public String getCity() {
+        return this.city;
     }
 }

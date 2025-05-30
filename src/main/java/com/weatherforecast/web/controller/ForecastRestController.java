@@ -29,6 +29,7 @@ public class ForecastRestController {
     public List<Forecast> getAllForecasts() {
         return forecastServiceImpl.getAll();
     }
+
     @GetMapping("/{city}")
     public List<Forecast> getAllForecasts(@PathVariable String city) {
         return forecastServiceImpl.findByCity(city);
